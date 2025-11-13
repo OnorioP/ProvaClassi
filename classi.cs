@@ -6,3 +6,7 @@ public class Veicolo
     public int Cilindrata { get; set; }
     
 }
+public class Auto: Veicolo
+{
+    public int NumeroPosti { get; set; }
+}
