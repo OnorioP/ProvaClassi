@@ -7,3 +7,7 @@ public class Veicolo
     public string TipoCambio { get; set; }
     
 }
+public class Auto: Veicolo
+{
+    public int NumeroPosti { get; set; }
+}
