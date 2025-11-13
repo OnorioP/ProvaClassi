@@ -4,5 +4,6 @@ public class Veicolo
     public string Modello { get; set; }
     public int NumeroPorte { get; set; }
     public int Cilindrata { get; set; }
+    public string TipoCambio { get; set; }
     
 }
